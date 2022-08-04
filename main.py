@@ -20,18 +20,3 @@ if __name__ == '__main__':
     else:
         bounding_boxes_images(args, DEFAULT_OID_DIR)
 
-'''
-python main.py downloader --classes "Ball" "Football" "Golf_ball" "Cricket_ball" "Tennis_ball" --type_csv train --limit 500
-python main.py downloader --classes "Ball" "Football" "Golf_ball" "Cricket_ball" "Tennis_ball" --type_csv validation --limit 300
-python convert_annotations.py
-
-python main.py downloader --classes "Missile" --type_csv train --limit 300
-python main.py downloader --classes "Missile" --type_csv validation --limit 300
-python convert_annotations.py
-
-python main.py downloader --classes "Tennis_ball" --type_csv train --limit 300
-python main.py downloader --classes "Tennis_ball" --type_csv validation --limit 300
-python convert_annotations.py
-
-now,have to remove label folder from each classes inside OID -> Dataset -> train & validation folder
-'''
