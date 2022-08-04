@@ -4,7 +4,7 @@
 ```bash
 https://github.com/MasumBhai/Dataset-preparation-for-YOLO.git
 ```
-2. 
+2. Requirement installation
 
 ```bash
 pip3 install -r requirements.txt
